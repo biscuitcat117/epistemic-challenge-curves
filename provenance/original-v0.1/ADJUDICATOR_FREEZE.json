@@ -1,0 +1,8 @@
+{
+  "selected_at": "2026-07-14",
+  "selected_before_disputed_response_content_was_inspected": true,
+  "role": "three-way-split sensitivity adjudicator only",
+  "model": "openrouter/qwen/qwen3.5-397b-a17b",
+  "selection_rule": "Currently available, high-capability, non-target model from a vendor not represented in the primary three-grader ensemble",
+  "primary_label_policy": "The frozen ordinal median is unchanged regardless of the adjudicator label"
+}

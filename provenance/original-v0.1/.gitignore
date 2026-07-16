@@ -1,0 +1,12 @@
+.venv/
+.env
+.env.*
+!.env.example
+__pycache__/
+.pytest_cache/
+*.py[cod]
+logs/*
+!logs/module-a-smoke-v0.1-final/
+!logs/module-a-smoke-v0.1-final/*.eval
+tmp-logs/
+.inspect-trace.log*

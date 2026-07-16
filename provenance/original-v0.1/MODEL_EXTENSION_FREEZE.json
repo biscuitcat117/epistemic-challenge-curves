@@ -1,0 +1,54 @@
+{
+  "frozen_at": "2026-07-15",
+  "created_before_any_extension_target_generation": true,
+  "target_generation_status_at_freeze": "not_started",
+  "hash_algorithm": "SHA-256",
+  "design": {
+    "target_models": [
+      "openrouter/x-ai/grok-4.5",
+      "openrouter/z-ai/glm-5.2"
+    ],
+    "excluded_candidate_models": [
+      "openrouter/qwen/qwen3.7-max",
+      "openrouter/meta-llama/llama-4-maverick"
+    ],
+    "scenario_families": 6,
+    "levels_per_scenario": 6,
+    "responses_per_model_prompt_cell": 5,
+    "planned_extension_responses": 360,
+    "planned_four_model_panel_responses": 720,
+    "presentation": "independent one-shot conversations",
+    "analysis_role": "pre-specified descriptive model extension"
+  },
+  "generation": {
+    "grok_reasoning_effort": "low",
+    "glm_reasoning_effort": "none",
+    "max_tokens": 800,
+    "max_connections": 4,
+    "generation_time_scoring": false
+  },
+  "budget_usd": {
+    "openrouter_usage_before_extension": 32.944441853,
+    "openrouter_limit_remaining_before_extension": 11.055558147,
+    "incremental_hard_cap": 5.5,
+    "target_phase_cap": 2.0,
+    "minimum_reserved_for_scoring_after_targets": 3.0
+  },
+  "analysis": {
+    "bootstrap_iterations": 10000,
+    "bootstrap_seed": 20260715,
+    "resampling_unit": "scenario family, paired across all four models",
+    "primary_metric": "six-point any-challenge curve and empirical S50",
+    "reversal_mass_role": "secondary diagnostic"
+  },
+  "files": {
+    "MODEL_EXTENSION_PLAN.md": "e121b0c1a27adca2e6e95bd233fd82cd02fb931aba0de7e6cb951a0a07781ae6",
+    "analyze_model_panel.py": "96ef974e8a698ede5e04ca4733e915dcada789c97f8289df38675da15a68ac88",
+    "holdout_challenge.py": "1f67abf2e86f98bd8450378ce29a660440748034dac8436ef27ddf0d8cedeaec",
+    "outputs/module_a_holdout_v0_1/prompt_inventory.jsonl": "d0d2edd47e92a204c22c8e0b02f116d813fe126fff179d40c322f6447f556814",
+    "automated_scoring.py": "835a4a416d9b491da1d7743872745cf5ea8f24373eacfb33f7ac6ef27ef36aee",
+    "adjudicate_splits.py": "02f2d8ef0fe75f0d2cd0eef26a11bd5ebe0285f30586723d91d4f29741a5daa2",
+    "analyze_results.py": "6797c564d47b50ad309cea9a670a84b79fcf2cefc69c8a41c1c9b9551d119071",
+    "ADJUDICATOR_FREEZE.json": "10cbd42e866763aa0c55b8e8c222da9c942b3ed4216f4cb9f7d2e2dea3520946"
+  }
+}

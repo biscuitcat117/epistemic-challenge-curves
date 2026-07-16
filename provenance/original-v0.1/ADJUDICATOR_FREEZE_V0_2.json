@@ -1,0 +1,21 @@
+{
+  "frozen_at": "2026-07-15",
+  "created_before_amended_adjudication_call": true,
+  "primary_consensus_affected": false,
+  "hash_algorithm": "SHA-256",
+  "change": {
+    "model": "openrouter/qwen/qwen3.5-397b-a17b",
+    "role": "sensitivity analysis only",
+    "previous_max_tokens": 800,
+    "amended_max_tokens": 4096,
+    "prompt_rubric_temperature_seed_unchanged": true
+  },
+  "files": {
+    "ADJUDICATOR_AMENDMENT_V0_2.md": "330e1c578bc0f47b455b3a51485e45b31d48f1eb6ada63665b7ece13a5a5c77d",
+    "adjudicate_splits_high_ceiling.py": "cb538cf5d5eb8c1b651ffc9d60a2e42bd66482017e3818755998031b88536abd",
+    "adjudicate_splits.py": "02f2d8ef0fe75f0d2cd0eef26a11bd5ebe0285f30586723d91d4f29741a5daa2",
+    "MODEL_EXTENSION_FREEZE_V0_3.json": "e07843034715e24ee6dc8b8e953e3c16f41d45796b33a50b95940495b37d1c36",
+    "automated_scoring.py": "835a4a416d9b491da1d7743872745cf5ea8f24373eacfb33f7ac6ef27ef36aee",
+    "ADJUDICATOR_FREEZE.json": "10cbd42e866763aa0c55b8e8c222da9c942b3ed4216f4cb9f7d2e2dea3520946"
+  }
+}

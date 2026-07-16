@@ -1,0 +1,6 @@
+measure,claude,gpt,difference_pp
+Any challenge,77.2%,11.1%,66.1
+Rarity acknowledgement,99.4%,97.8%,1.7
+Conditional language,70.0%,40.0%,30.0
+Alternative explanation,83.3%,5.6%,77.8
+Explicit challenge,13.3%,0.0%,13.3

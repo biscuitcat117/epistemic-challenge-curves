@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=69", "wheel>=0.42"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "epistemic-challenge-curves"
+version = "0.2.0"
+description = "Reproduce analyses for the Epistemic Challenge Curves study"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8,<10",
+]
+
+[project.scripts]
+ecc-reproduce = "epistemic_challenge_curves.reproduce:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = [".", "src"]
+testpaths = ["tests"]

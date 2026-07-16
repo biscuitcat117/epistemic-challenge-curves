@@ -1,0 +1,11 @@
+{
+  "frozen_at": "2026-07-14",
+  "hash_algorithm": "SHA-256",
+  "files": {
+    "REPLICATION_PLAN.md": "f842b414498990c5049d49a697d17c676a6ac3bc3f41380b62e14af8c4f9a48f",
+    "epistemic_challenge.py": "42616bfd421b035103958ffe9730cf8ef27cb8b4a55145174a51b762cf7ed0ab",
+    "outputs/019f6106-4360-7303-9803-88d6a5fc5666/prompt_inventory_v0_1.jsonl": "51e6a644626f0de7224071367404eac508c9b392ed9e7e3246d4dbc5dd1517b1",
+    "logs/module-a-smoke-v0.1-final/2026-07-14T15-27-45-00-00_epistemic-challenge_ahc84AmSqcr4DVUxfvUdo4.eval": "288a55381ea593c04fe629eb73e86474ddb43342136ee0cccf421a9045baa6a6",
+    "logs/module-a-smoke-v0.1-final/2026-07-14T15-27-45-00-00_epistemic-challenge_iz32LMCwnbxdQrNLmfCx5W.eval": "e9fe96d40d4c32d24bc51d3bd7e55805dca4849b98d79863b58e2ecc6d1031b0"
+  }
+}

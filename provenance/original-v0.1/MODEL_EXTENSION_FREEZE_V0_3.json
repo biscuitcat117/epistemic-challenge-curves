@@ -1,0 +1,43 @@
+{
+  "frozen_at": "2026-07-15",
+  "explicit_user_authorization": true,
+  "created_before_any_glm_v0_3_rerun": true,
+  "response_content_inspected_before_freeze": false,
+  "automated_scoring_started_before_freeze": false,
+  "hash_algorithm": "SHA-256",
+  "revision": {
+    "reason": "One response in the complete GLM v0.2 rerun ended at max_tokens with no visible completion.",
+    "changed_setting": "GLM max_tokens increased from 1600 to 4096",
+    "unchanged_grok_log_sha256": "aae1cb2f561d2ac52add7df7e2628209f5dd3d64c3ccf2fff518a11c31cacceb",
+    "rejected_glm_v0_2_log_sha256": "cb44cdac0e99a20d96a4c72233ea9ae1be17702a786ee09a0f793e26d3f01ad3"
+  },
+  "accepted_generation": {
+    "grok_model": "openrouter/x-ai/grok-4.5",
+    "grok_reasoning_effort": "low",
+    "grok_max_tokens": 800,
+    "glm_model": "openrouter/z-ai/glm-5.2",
+    "glm_reasoning_effort": "none",
+    "glm_max_tokens": 4096,
+    "max_connections": 4,
+    "generation_time_scoring": false
+  },
+  "budget_usd": {
+    "openrouter_usage_before_extension": 32.944441853,
+    "usage_before_v0_3": 33.812443029,
+    "incremental_spend_before_v0_3": 0.868001176,
+    "incremental_hard_cap": 5.5,
+    "target_phase_cap": 2.0,
+    "minimum_reserved_for_scoring_after_targets": 3.0
+  },
+  "files": {
+    "MODEL_EXTENSION_AMENDMENT_V0_3.md": "686f6240e4162f046af60517d64999ae0148afa2b1f0dfc86406081e780db55e",
+    "MODEL_EXTENSION_FREEZE_V0_2.json": "09fbff485d4b584b1e748d5b90bff551220218a5497940e4857d7d09385106e4",
+    "analyze_model_panel.py": "96ef974e8a698ede5e04ca4733e915dcada789c97f8289df38675da15a68ac88",
+    "holdout_challenge.py": "1f67abf2e86f98bd8450378ce29a660440748034dac8436ef27ddf0d8cedeaec",
+    "outputs/module_a_holdout_v0_1/prompt_inventory.jsonl": "d0d2edd47e92a204c22c8e0b02f116d813fe126fff179d40c322f6447f556814",
+    "automated_scoring.py": "835a4a416d9b491da1d7743872745cf5ea8f24373eacfb33f7ac6ef27ef36aee",
+    "adjudicate_splits.py": "02f2d8ef0fe75f0d2cd0eef26a11bd5ebe0285f30586723d91d4f29741a5daa2",
+    "analyze_results.py": "6797c564d47b50ad309cea9a670a84b79fcf2cefc69c8a41c1c9b9551d119071",
+    "ADJUDICATOR_FREEZE.json": "10cbd42e866763aa0c55b8e8c222da9c942b3ed4216f4cb9f7d2e2dea3520946"
+  }
+}

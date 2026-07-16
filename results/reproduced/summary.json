@@ -1,0 +1,553 @@
+{
+  "source_data": {
+    "holdout_consensus_labels": "data/holdout/consensus_labels.csv",
+    "extension_consensus_labels": "data/model_extension/consensus_labels.csv"
+  },
+  "counts": {
+    "responses": 720,
+    "models": 4,
+    "scenario_families": 6,
+    "surprisal_levels": [
+      1,
+      2,
+      4,
+      6,
+      8,
+      10
+    ]
+  },
+  "model_order": [
+    "openrouter/anthropic/claude-sonnet-5",
+    "openrouter/openai/gpt-5.6-terra",
+    "openrouter/x-ai/grok-4.5",
+    "openrouter/z-ai/glm-5.2"
+  ],
+  "model_labels": {
+    "openrouter/anthropic/claude-sonnet-5": "Claude Sonnet 5",
+    "openrouter/openai/gpt-5.6-terra": "GPT-5.6 Terra",
+    "openrouter/x-ai/grok-4.5": "Grok 4.5",
+    "openrouter/z-ai/glm-5.2": "GLM 5.2"
+  },
+  "models": {
+    "openrouter/anthropic/claude-sonnet-5": {
+      "responses": 180,
+      "any_challenge_count": 139,
+      "any_challenge_rate": 0.7722222222222223,
+      "any_challenge_wilson_95": [
+        0.7056425365294068,
+        0.8274254701577151
+      ],
+      "soft_challenge_count": 115,
+      "soft_challenge_rate": 0.6388888888888888,
+      "explicit_challenge_count": 24,
+      "explicit_challenge_rate": 0.13333333333333333,
+      "empirical_s50_log10": 2,
+      "challenge_curve": [
+        {
+          "surprisal_log10": 1,
+          "responses": 30,
+          "any_challenge_count": 4,
+          "any_challenge_rate": 0.13333333333333333,
+          "any_challenge_wilson_95": [
+            0.053096554840547455,
+            0.296813266820363
+          ]
+        },
+        {
+          "surprisal_log10": 2,
+          "responses": 30,
+          "any_challenge_count": 15,
+          "any_challenge_rate": 0.5,
+          "any_challenge_wilson_95": [
+            0.33154125640533766,
+            0.6684587435946623
+          ]
+        },
+        {
+          "surprisal_log10": 4,
+          "responses": 30,
+          "any_challenge_count": 30,
+          "any_challenge_rate": 1.0,
+          "any_challenge_wilson_95": [
+            0.8864866068260312,
+            0.9999999999999999
+          ]
+        },
+        {
+          "surprisal_log10": 6,
+          "responses": 30,
+          "any_challenge_count": 30,
+          "any_challenge_rate": 1.0,
+          "any_challenge_wilson_95": [
+            0.8864866068260312,
+            0.9999999999999999
+          ]
+        },
+        {
+          "surprisal_log10": 8,
+          "responses": 30,
+          "any_challenge_count": 30,
+          "any_challenge_rate": 1.0,
+          "any_challenge_wilson_95": [
+            0.8864866068260312,
+            0.9999999999999999
+          ]
+        },
+        {
+          "surprisal_log10": 10,
+          "responses": 30,
+          "any_challenge_count": 30,
+          "any_challenge_rate": 1.0,
+          "any_challenge_wilson_95": [
+            0.8864866068260312,
+            0.9999999999999999
+          ]
+        }
+      ],
+      "tag_rates": {
+        "rarity_acknowledged": 0.9944444444444445,
+        "conditional_language": 0.7,
+        "alternative_explanation": 0.8333333333333334,
+        "safety_or_task_bypass": 0,
+        "accusatory": 0
+      }
+    },
+    "openrouter/openai/gpt-5.6-terra": {
+      "responses": 180,
+      "any_challenge_count": 20,
+      "any_challenge_rate": 0.1111111111111111,
+      "any_challenge_wilson_95": [
+        0.07308754224863465,
+        0.16538673391261993
+      ],
+      "soft_challenge_count": 20,
+      "soft_challenge_rate": 0.1111111111111111,
+      "explicit_challenge_count": 0,
+      "explicit_challenge_rate": 0.0,
+      "empirical_s50_log10": 10,
+      "challenge_curve": [
+        {
+          "surprisal_log10": 1,
+          "responses": 30,
+          "any_challenge_count": 0,
+          "any_challenge_rate": 0.0,
+          "any_challenge_wilson_95": [
+            0.0,
+            0.11351339317396876
+          ]
+        },
+        {
+          "surprisal_log10": 2,
+          "responses": 30,
+          "any_challenge_count": 0,
+          "any_challenge_rate": 0.0,
+          "any_challenge_wilson_95": [
+            0.0,
+            0.11351339317396876
+          ]
+        },
+        {
+          "surprisal_log10": 4,
+          "responses": 30,
+          "any_challenge_count": 1,
+          "any_challenge_rate": 0.03333333333333333,
+          "any_challenge_wilson_95": [
+            0.005908590381612455,
+            0.16670390991409173
+          ]
+        },
+        {
+          "surprisal_log10": 6,
+          "responses": 30,
+          "any_challenge_count": 1,
+          "any_challenge_rate": 0.03333333333333333,
+          "any_challenge_wilson_95": [
+            0.005908590381612455,
+            0.16670390991409173
+          ]
+        },
+        {
+          "surprisal_log10": 8,
+          "responses": 30,
+          "any_challenge_count": 2,
+          "any_challenge_rate": 0.06666666666666667,
+          "any_challenge_wilson_95": [
+            0.018477023791270378,
+            0.2132345836261692
+          ]
+        },
+        {
+          "surprisal_log10": 10,
+          "responses": 30,
+          "any_challenge_count": 16,
+          "any_challenge_rate": 0.5333333333333333,
+          "any_challenge_wilson_95": [
+            0.36142299619873297,
+            0.6976761109230025
+          ]
+        }
+      ],
+      "tag_rates": {
+        "rarity_acknowledged": 0.9777777777777777,
+        "conditional_language": 0.4,
+        "alternative_explanation": 0.05555555555555555,
+        "safety_or_task_bypass": 0,
+        "accusatory": 0
+      }
+    },
+    "openrouter/x-ai/grok-4.5": {
+      "responses": 180,
+      "any_challenge_count": 24,
+      "any_challenge_rate": 0.13333333333333333,
+      "any_challenge_wilson_95": [
+        0.09126281053659399,
+        0.19072722127258887
+      ],
+      "soft_challenge_count": 22,
+      "soft_challenge_rate": 0.12222222222222222,
+      "explicit_challenge_count": 2,
+      "explicit_challenge_rate": 0.011111111111111112,
+      "empirical_s50_log10": null,
+      "challenge_curve": [
+        {
+          "surprisal_log10": 1,
+          "responses": 30,
+          "any_challenge_count": 1,
+          "any_challenge_rate": 0.03333333333333333,
+          "any_challenge_wilson_95": [
+            0.005908590381612455,
+            0.16670390991409173
+          ]
+        },
+        {
+          "surprisal_log10": 2,
+          "responses": 30,
+          "any_challenge_count": 1,
+          "any_challenge_rate": 0.03333333333333333,
+          "any_challenge_wilson_95": [
+            0.005908590381612455,
+            0.16670390991409173
+          ]
+        },
+        {
+          "surprisal_log10": 4,
+          "responses": 30,
+          "any_challenge_count": 2,
+          "any_challenge_rate": 0.06666666666666667,
+          "any_challenge_wilson_95": [
+            0.018477023791270378,
+            0.2132345836261692
+          ]
+        },
+        {
+          "surprisal_log10": 6,
+          "responses": 30,
+          "any_challenge_count": 4,
+          "any_challenge_rate": 0.13333333333333333,
+          "any_challenge_wilson_95": [
+            0.053096554840547455,
+            0.296813266820363
+          ]
+        },
+        {
+          "surprisal_log10": 8,
+          "responses": 30,
+          "any_challenge_count": 7,
+          "any_challenge_rate": 0.23333333333333334,
+          "any_challenge_wilson_95": [
+            0.11792388144489496,
+            0.40928326158122164
+          ]
+        },
+        {
+          "surprisal_log10": 10,
+          "responses": 30,
+          "any_challenge_count": 9,
+          "any_challenge_rate": 0.3,
+          "any_challenge_wilson_95": [
+            0.16664748268243793,
+            0.47875787458714947
+          ]
+        }
+      ],
+      "tag_rates": {
+        "rarity_acknowledged": 0.9611111111111111,
+        "conditional_language": 0.23333333333333334,
+        "alternative_explanation": 0.21666666666666667,
+        "safety_or_task_bypass": 0,
+        "accusatory": 0
+      }
+    },
+    "openrouter/z-ai/glm-5.2": {
+      "responses": 180,
+      "any_challenge_count": 59,
+      "any_challenge_rate": 0.3277777777777778,
+      "any_challenge_wilson_95": [
+        0.2634275387606302,
+        0.3993253549679253
+      ],
+      "soft_challenge_count": 56,
+      "soft_challenge_rate": 0.3111111111111111,
+      "explicit_challenge_count": 3,
+      "explicit_challenge_rate": 0.016666666666666666,
+      "empirical_s50_log10": 8,
+      "challenge_curve": [
+        {
+          "surprisal_log10": 1,
+          "responses": 30,
+          "any_challenge_count": 2,
+          "any_challenge_rate": 0.06666666666666667,
+          "any_challenge_wilson_95": [
+            0.018477023791270378,
+            0.2132345836261692
+          ]
+        },
+        {
+          "surprisal_log10": 2,
+          "responses": 30,
+          "any_challenge_count": 5,
+          "any_challenge_rate": 0.16666666666666666,
+          "any_challenge_wilson_95": [
+            0.0733654237184855,
+            0.3356435050641603
+          ]
+        },
+        {
+          "surprisal_log10": 4,
+          "responses": 30,
+          "any_challenge_count": 11,
+          "any_challenge_rate": 0.36666666666666664,
+          "any_challenge_wilson_95": [
+            0.21873920806100708,
+            0.5448643634520511
+          ]
+        },
+        {
+          "surprisal_log10": 6,
+          "responses": 30,
+          "any_challenge_count": 9,
+          "any_challenge_rate": 0.3,
+          "any_challenge_wilson_95": [
+            0.16664748268243793,
+            0.47875787458714947
+          ]
+        },
+        {
+          "surprisal_log10": 8,
+          "responses": 30,
+          "any_challenge_count": 17,
+          "any_challenge_rate": 0.5666666666666667,
+          "any_challenge_wilson_95": [
+            0.3919730700081361,
+            0.7262251442353347
+          ]
+        },
+        {
+          "surprisal_log10": 10,
+          "responses": 30,
+          "any_challenge_count": 15,
+          "any_challenge_rate": 0.5,
+          "any_challenge_wilson_95": [
+            0.33154125640533766,
+            0.6684587435946623
+          ]
+        }
+      ],
+      "tag_rates": {
+        "rarity_acknowledged": 0.9888888888888889,
+        "conditional_language": 0.2611111111111111,
+        "alternative_explanation": 0.31666666666666665,
+        "safety_or_task_bypass": 0.005555555555555556,
+        "accusatory": 0.005555555555555556
+      }
+    }
+  },
+  "clean_holdout_comparison": {
+    "overall_claude_minus_gpt": 0.6611111111111112,
+    "family_specific_gaps": {
+      "capsule_drums": 0.49999999999999994,
+      "colour_displays": 0.6666666666666667,
+      "parcel_chutes": 0.7666666666666667,
+      "puzzle_buttons": 0.5333333333333332,
+      "star_cards": 0.6333333333333333,
+      "workshop_rooms": 0.8666666666666667
+    },
+    "leave_one_family_out_gaps": {
+      "capsule_drums": 0.6933333333333332,
+      "colour_displays": 0.66,
+      "parcel_chutes": 0.64,
+      "puzzle_buttons": 0.6866666666666666,
+      "star_cards": 0.6666666666666667,
+      "workshop_rooms": 0.62
+    },
+    "paired_family_bootstrap": {
+      "iterations": 10000,
+      "seed": 20260714,
+      "percentile_95_interval": [
+        0.5611111111111111,
+        0.7611111111111112
+      ],
+      "share_above_zero": 1
+    },
+    "behavior_measures": {
+      "any_challenge": {
+        "openrouter/anthropic/claude-sonnet-5": 0.7722222222222223,
+        "openrouter/openai/gpt-5.6-terra": 0.1111111111111111,
+        "claude_minus_gpt": 0.6611111111111112
+      },
+      "rarity_acknowledged": {
+        "openrouter/anthropic/claude-sonnet-5": 0.9944444444444445,
+        "openrouter/openai/gpt-5.6-terra": 0.9777777777777777,
+        "claude_minus_gpt": 0.01666666666666672
+      },
+      "conditional_language": {
+        "openrouter/anthropic/claude-sonnet-5": 0.7,
+        "openrouter/openai/gpt-5.6-terra": 0.4,
+        "claude_minus_gpt": 0.29999999999999993
+      },
+      "alternative_explanation": {
+        "openrouter/anthropic/claude-sonnet-5": 0.8333333333333334,
+        "openrouter/openai/gpt-5.6-terra": 0.05555555555555555,
+        "claude_minus_gpt": 0.7777777777777778
+      },
+      "explicit_challenge": {
+        "openrouter/anthropic/claude-sonnet-5": 0.13333333333333333,
+        "openrouter/openai/gpt-5.6-terra": 0,
+        "claude_minus_gpt": 0.13333333333333333
+      }
+    }
+  },
+  "pairwise_scenario_cluster_bootstrap": {
+    "iterations": 10000,
+    "seed": 20260715,
+    "resampling_unit": "scenario family, paired across all four target models",
+    "comparisons": {
+      "openrouter/anthropic/claude-sonnet-5__minus__openrouter/openai/gpt-5.6-terra": {
+        "left_model": "openrouter/anthropic/claude-sonnet-5",
+        "right_model": "openrouter/openai/gpt-5.6-terra",
+        "left_label": "Claude Sonnet 5",
+        "right_label": "GPT-5.6 Terra",
+        "overall_challenge_rate_left_minus_right": {
+          "percentile_95_interval": [
+            0.5611111111111111,
+            0.7611111111111112
+          ],
+          "share_above_zero": 1
+        },
+        "empirical_s50_left_minus_right": {
+          "valid_resamples": 6802,
+          "percentile_95_interval": [
+            -8.0,
+            -6.0
+          ],
+          "share_above_zero": 0
+        }
+      },
+      "openrouter/anthropic/claude-sonnet-5__minus__openrouter/x-ai/grok-4.5": {
+        "left_model": "openrouter/anthropic/claude-sonnet-5",
+        "right_model": "openrouter/x-ai/grok-4.5",
+        "left_label": "Claude Sonnet 5",
+        "right_label": "Grok 4.5",
+        "overall_challenge_rate_left_minus_right": {
+          "percentile_95_interval": [
+            0.5333333333333333,
+            0.7388888888888889
+          ],
+          "share_above_zero": 1
+        },
+        "empirical_s50_left_minus_right": {
+          "valid_resamples": 573,
+          "percentile_95_interval": [
+            -8.0,
+            -6.0
+          ],
+          "share_above_zero": 0
+        }
+      },
+      "openrouter/anthropic/claude-sonnet-5__minus__openrouter/z-ai/glm-5.2": {
+        "left_model": "openrouter/anthropic/claude-sonnet-5",
+        "right_model": "openrouter/z-ai/glm-5.2",
+        "left_label": "Claude Sonnet 5",
+        "right_label": "GLM 5.2",
+        "overall_challenge_rate_left_minus_right": {
+          "percentile_95_interval": [
+            0.32777777777777783,
+            0.5666666666666667
+          ],
+          "share_above_zero": 1
+        },
+        "empirical_s50_left_minus_right": {
+          "valid_resamples": 9469,
+          "percentile_95_interval": [
+            -6.0,
+            0.0
+          ],
+          "share_above_zero": 0
+        }
+      },
+      "openrouter/openai/gpt-5.6-terra__minus__openrouter/x-ai/grok-4.5": {
+        "left_model": "openrouter/openai/gpt-5.6-terra",
+        "right_model": "openrouter/x-ai/grok-4.5",
+        "left_label": "GPT-5.6 Terra",
+        "right_label": "Grok 4.5",
+        "overall_challenge_rate_left_minus_right": {
+          "percentile_95_interval": [
+            -0.12222222222222222,
+            0.0611111111111111
+          ],
+          "share_above_zero": 0.3006
+        },
+        "empirical_s50_left_minus_right": {
+          "valid_resamples": 562,
+          "percentile_95_interval": [
+            0.0,
+            0.0
+          ],
+          "share_above_zero": 0
+        }
+      },
+      "openrouter/openai/gpt-5.6-terra__minus__openrouter/z-ai/glm-5.2": {
+        "left_model": "openrouter/openai/gpt-5.6-terra",
+        "right_model": "openrouter/z-ai/glm-5.2",
+        "left_label": "GPT-5.6 Terra",
+        "right_label": "GLM 5.2",
+        "overall_challenge_rate_left_minus_right": {
+          "percentile_95_interval": [
+            -0.3222222222222222,
+            -0.10555555555555557
+          ],
+          "share_above_zero": 0
+        },
+        "empirical_s50_left_minus_right": {
+          "valid_resamples": 6271,
+          "percentile_95_interval": [
+            0.0,
+            6.0
+          ],
+          "share_above_zero": 0.9044809440280657
+        }
+      },
+      "openrouter/x-ai/grok-4.5__minus__openrouter/z-ai/glm-5.2": {
+        "left_model": "openrouter/x-ai/grok-4.5",
+        "right_model": "openrouter/z-ai/glm-5.2",
+        "left_label": "Grok 4.5",
+        "right_label": "GLM 5.2",
+        "overall_challenge_rate_left_minus_right": {
+          "percentile_95_interval": [
+            -0.3055555555555556,
+            -0.09444444444444441
+          ],
+          "share_above_zero": 0
+        },
+        "empirical_s50_left_minus_right": {
+          "valid_resamples": 573,
+          "percentile_95_interval": [
+            2.0,
+            6.0
+          ],
+          "share_above_zero": 1
+        }
+      }
+    }
+  }
+}

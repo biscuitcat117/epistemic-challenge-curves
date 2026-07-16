@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560">
+<title>Challenge rate by objective surprisal</title>
+<desc>Four model challenge curves. Every plotted point contains 30 responses: six scenario families times five generations.</desc>
+<rect width="100%" height="100%" fill="white"/>
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#111827}.title{font-size:21px;font-weight:700}.subtitle{font-size:13px;fill:#4b5563}.tick{font-size:13px}.axis{font-size:15px}.legend{font-size:14px}</style>
+<text class="title" x="90" y="31">Challenge rate by objective surprisal</text>
+<text class="subtitle" x="90" y="55">Four models; each point contains 30 responses (six scenario families x five generations)</text>
+<line x1="90" y1="435.0" x2="865" y2="435.0" stroke="#d1d5db" stroke-width="1"/>
+<text class="tick" x="78" y="439.0" text-anchor="end">0</text>
+<line x1="90" y1="350.0" x2="865" y2="350.0" stroke="#d1d5db" stroke-width="1"/>
+<text class="tick" x="78" y="354.0" text-anchor="end">0.25</text>
+<line x1="90" y1="265.0" x2="865" y2="265.0" stroke="#d1d5db" stroke-width="1"/>
+<text class="tick" x="78" y="269.0" text-anchor="end">0.5</text>
+<line x1="90" y1="180.0" x2="865" y2="180.0" stroke="#d1d5db" stroke-width="1"/>
+<text class="tick" x="78" y="184.0" text-anchor="end">0.75</text>
+<line x1="90" y1="95.0" x2="865" y2="95.0" stroke="#d1d5db" stroke-width="1"/>
+<text class="tick" x="78" y="99.0" text-anchor="end">1</text>
+<line x1="90.0" y1="95" x2="90.0" y2="435" stroke="#f3f4f6" stroke-width="1"/>
+<text class="tick" x="90.0" y="459" text-anchor="middle">1</text>
+<line x1="176.1" y1="95" x2="176.1" y2="435" stroke="#f3f4f6" stroke-width="1"/>
+<text class="tick" x="176.1" y="459" text-anchor="middle">2</text>
+<line x1="348.3" y1="95" x2="348.3" y2="435" stroke="#f3f4f6" stroke-width="1"/>
+<text class="tick" x="348.3" y="459" text-anchor="middle">4</text>
+<line x1="520.6" y1="95" x2="520.6" y2="435" stroke="#f3f4f6" stroke-width="1"/>
+<text class="tick" x="520.6" y="459" text-anchor="middle">6</text>
+<line x1="692.8" y1="95" x2="692.8" y2="435" stroke="#f3f4f6" stroke-width="1"/>
+<text class="tick" x="692.8" y="459" text-anchor="middle">8</text>
+<line x1="865.0" y1="95" x2="865.0" y2="435" stroke="#f3f4f6" stroke-width="1"/>
+<text class="tick" x="865.0" y="459" text-anchor="middle">10</text>
+<line x1="90" y1="435" x2="865" y2="435" stroke="#111827" stroke-width="1.5"/>
+<line x1="90" y1="95" x2="90" y2="435" stroke="#111827" stroke-width="1.5"/>
+<text class="axis" x="477.5" y="490" text-anchor="middle">Objective surprisal, -log10(p)</text>
+<text class="axis" x="25" y="265.0" text-anchor="middle" transform="rotate(-90 25 265.0)">Any-challenge rate</text>
+<path d="M 90.0 389.7 L 176.1 265.0 L 348.3 95.0 L 520.6 95.0 L 692.8 95.0 L 865.0 95.0" fill="none" stroke="#2563eb" stroke-width="3"/>
+<circle cx="90.0" cy="389.7" r="4.5" fill="white" stroke="#2563eb" stroke-width="2.5"/>
+<circle cx="176.1" cy="265.0" r="4.5" fill="white" stroke="#2563eb" stroke-width="2.5"/>
+<circle cx="348.3" cy="95.0" r="4.5" fill="white" stroke="#2563eb" stroke-width="2.5"/>
+<circle cx="520.6" cy="95.0" r="4.5" fill="white" stroke="#2563eb" stroke-width="2.5"/>
+<circle cx="692.8" cy="95.0" r="4.5" fill="white" stroke="#2563eb" stroke-width="2.5"/>
+<circle cx="865.0" cy="95.0" r="4.5" fill="white" stroke="#2563eb" stroke-width="2.5"/>
+<path d="M 90.0 435.0 L 176.1 435.0 L 348.3 423.7 L 520.6 423.7 L 692.8 412.3 L 865.0 253.7" fill="none" stroke="#d97706" stroke-width="3" stroke-dasharray="8 5"/>
+<circle cx="90.0" cy="435.0" r="4.5" fill="white" stroke="#d97706" stroke-width="2.5"/>
+<circle cx="176.1" cy="435.0" r="4.5" fill="white" stroke="#d97706" stroke-width="2.5"/>
+<circle cx="348.3" cy="423.7" r="4.5" fill="white" stroke="#d97706" stroke-width="2.5"/>
+<circle cx="520.6" cy="423.7" r="4.5" fill="white" stroke="#d97706" stroke-width="2.5"/>
+<circle cx="692.8" cy="412.3" r="4.5" fill="white" stroke="#d97706" stroke-width="2.5"/>
+<circle cx="865.0" cy="253.7" r="4.5" fill="white" stroke="#d97706" stroke-width="2.5"/>
+<path d="M 90.0 423.7 L 176.1 423.7 L 348.3 412.3 L 520.6 389.7 L 692.8 355.7 L 865.0 333.0" fill="none" stroke="#6b8e23" stroke-width="3" stroke-dasharray="3 4"/>
+<circle cx="90.0" cy="423.7" r="4.5" fill="white" stroke="#6b8e23" stroke-width="2.5"/>
+<circle cx="176.1" cy="423.7" r="4.5" fill="white" stroke="#6b8e23" stroke-width="2.5"/>
+<circle cx="348.3" cy="412.3" r="4.5" fill="white" stroke="#6b8e23" stroke-width="2.5"/>
+<circle cx="520.6" cy="389.7" r="4.5" fill="white" stroke="#6b8e23" stroke-width="2.5"/>
+<circle cx="692.8" cy="355.7" r="4.5" fill="white" stroke="#6b8e23" stroke-width="2.5"/>
+<circle cx="865.0" cy="333.0" r="4.5" fill="white" stroke="#6b8e23" stroke-width="2.5"/>
+<path d="M 90.0 412.3 L 176.1 378.3 L 348.3 310.3 L 520.6 333.0 L 692.8 242.3 L 865.0 265.0" fill="none" stroke="#db2777" stroke-width="3" stroke-dasharray="10 4 2 4"/>
+<circle cx="90.0" cy="412.3" r="4.5" fill="white" stroke="#db2777" stroke-width="2.5"/>
+<circle cx="176.1" cy="378.3" r="4.5" fill="white" stroke="#db2777" stroke-width="2.5"/>
+<circle cx="348.3" cy="310.3" r="4.5" fill="white" stroke="#db2777" stroke-width="2.5"/>
+<circle cx="520.6" cy="333.0" r="4.5" fill="white" stroke="#db2777" stroke-width="2.5"/>
+<circle cx="692.8" cy="242.3" r="4.5" fill="white" stroke="#db2777" stroke-width="2.5"/>
+<circle cx="865.0" cy="265.0" r="4.5" fill="white" stroke="#db2777" stroke-width="2.5"/>
+<line x1="90.0" y1="530" x2="120.0" y2="530" stroke="#2563eb" stroke-width="3"/>
+<text class="legend" x="128.0" y="535">Claude Sonnet 5</text>
+<line x1="283.8" y1="530" x2="313.8" y2="530" stroke="#d97706" stroke-width="3" stroke-dasharray="8 5"/>
+<text class="legend" x="321.8" y="535">GPT-5.6 Terra</text>
+<line x1="477.5" y1="530" x2="507.5" y2="530" stroke="#6b8e23" stroke-width="3" stroke-dasharray="3 4"/>
+<text class="legend" x="515.5" y="535">Grok 4.5</text>
+<line x1="671.2" y1="530" x2="701.2" y2="530" stroke="#db2777" stroke-width="3" stroke-dasharray="10 4 2 4"/>
+<text class="legend" x="709.2" y="535">GLM 5.2</text>
+</svg>

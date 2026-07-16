@@ -1,0 +1,5 @@
+model,responses,any_challenge_rate,soft_challenge_rate,explicit_challenge_rate,empirical_s50_log10
+Claude Sonnet 5,180,77.2%,63.9%,13.3%,2
+GPT-5.6 Terra,180,11.1%,11.1%,0.0%,10
+Grok 4.5,180,13.3%,12.2%,1.1%,No crossing through 10
+GLM 5.2,180,32.8%,31.1%,1.7%,8

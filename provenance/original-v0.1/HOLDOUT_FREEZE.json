@@ -1,0 +1,26 @@
+{
+  "frozen_at": "2026-07-14",
+  "created_before_any_holdout_target_generation": true,
+  "target_generation_status_at_freeze": "not_started",
+  "hash_algorithm": "SHA-256",
+  "design": {
+    "target_models": 2,
+    "scenario_families": 6,
+    "levels_per_scenario": 6,
+    "responses_per_model_prompt_cell": 5,
+    "planned_target_responses": 360,
+    "presentation": "independent one-shot conversations",
+    "primary_analysis": "holdout responses only"
+  },
+  "files": {
+    "HOLDOUT_PLAN.md": "9bb5e700155d915aa272713b848d1b1356898861cbf06aad707242437cfd2dd7",
+    "build_holdout_inventory.py": "783d788db5f4e69fad8d76529cb4f655253c942aa7b56385782e5b5ce8775642",
+    "holdout_challenge.py": "1f67abf2e86f98bd8450378ce29a660440748034dac8436ef27ddf0d8cedeaec",
+    "outputs/module_a_holdout_v0_1/prompt_inventory.jsonl": "d0d2edd47e92a204c22c8e0b02f116d813fe126fff179d40c322f6447f556814",
+    "epistemic_challenge.py": "42616bfd421b035103958ffe9730cf8ef27cb8b4a55145174a51b762cf7ed0ab",
+    "automated_scoring.py": "835a4a416d9b491da1d7743872745cf5ea8f24373eacfb33f7ac6ef27ef36aee",
+    "analyze_results.py": "6797c564d47b50ad309cea9a670a84b79fcf2cefc69c8a41c1c9b9551d119071",
+    "adjudicate_splits.py": "02f2d8ef0fe75f0d2cd0eef26a11bd5ebe0285f30586723d91d4f29741a5daa2",
+    "ADJUDICATOR_FREEZE.json": "10cbd42e866763aa0c55b8e8c222da9c942b3ed4216f4cb9f7d2e2dea3520946"
+  }
+}
